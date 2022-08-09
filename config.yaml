@@ -1,7 +1,7 @@
 languageCode: "en-us"
 baseUrl: "https://exitflynn.github.io/blog"
 title: "Aech's Basement"
-theme: "anubis"
+theme:  "github.com/Mitrichius/hugo-theme-anubis"
 paginate: 10
   # disqusShortname: "yourdiscussshortname"
   # googleAnalytics: "G-12345"
@@ -18,7 +18,7 @@ menu:
 
 params:
   author: "Akshit Tyagi"
-  email: mail@example.org # used for microformats
+  email: tyagiakshit833@gmail.com # used for microformats
   avatar: "/images/me.png" # used for microformats
   description: ""
   # Uncomment if you need this
