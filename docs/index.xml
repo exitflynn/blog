@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Akshit&#39;s Blog (⌐■_■)</title>
+    <link>https://exitflynn.github.io/blog/</link>
+    <description>Akshit&#39;s Blog (⌐■_■)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Jul 2022 10:59:44 +0000</lastBuildDate>
+    
+    <atom:link href="https://exitflynn.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Experience With Graphic Designing</title>
+      <link>https://exitflynn.github.io/blog/posts/gd/</link>
+      <pubDate>Thu, 14 Jul 2022 10:59:44 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/gd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DEF CON Delhi was wild</title>
+      <link>https://exitflynn.github.io/blog/posts/defcon/</link>
+      <pubDate>Thu, 14 Jul 2022 10:37:16 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/defcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distrOS</title>
+      <link>https://exitflynn.github.io/blog/posts/distros/</link>
+      <pubDate>Thu, 14 Jul 2022 10:35:00 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/distros/</guid>
+      <description>&lt;h1 id=&#34;my-first-real-open-source-experience-_&#34; &gt;My first &amp;ldquo;real&amp;rdquo; Open-Source experience (⌐■_■)
+&lt;span&gt;
+    &lt;a href=&#34;#my-first-real-open-source-experience-_&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;In order to &lt;em&gt;truly&lt;/em&gt; understand how things came to be, how history played out, one would require to travel back to the day it began.&lt;/p&gt;
+&lt;h3 id=&#34;tuesday-july-12-2022&#34; &gt;Tuesday, July 12, 2022
+&lt;span&gt;
+    &lt;a href=&#34;#tuesday-july-12-2022&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;609-pm&#34; &gt;6:09 pm
+&lt;span&gt;
+    &lt;a href=&#34;#609-pm&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;p&gt;It&amp;rsquo;s a Tuesday evening. Nay, it&amp;rsquo;s &lt;em&gt;the&lt;/em&gt; Tuesday evening.&lt;/p&gt;
+&lt;h4 id=&#34;30-mins-later-639-pm&#34; &gt;30 mins later, 6:39 pm
+&lt;span&gt;
+    &lt;a href=&#34;#30-mins-later-639-pm&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;p&gt;Imagine a very cool boi, if only you could imagine him any cooler you&amp;rsquo;ll have some idea of who I&amp;rsquo;m talking about.
+He was sitting in his room, his laptop and a bag of Doritos by his side, slashin away as he did a routine survey of my Realm, the Realm of the Browsing. His head filled with all sorts of ideas as usual. Ideas, yes. Ideas come and go. Staying, for less than a moment, yet ever so impactful. Ideas, yes. That&amp;rsquo;s how it all began. With an idea.&lt;/p&gt;
+&lt;h1 id=&#34;there-was-an-idea&#34; &gt;There was an idea&amp;hellip;
+&lt;span&gt;
+    &lt;a href=&#34;#there-was-an-idea&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;h2 id=&#34;a-man-may-die-nations-may-rise-and-fall-but-an-idea-lives-on-ideas-have-endurance-without-death--john-f-kennedy&#34; &gt;“A man may die, nations may rise and fall, but an idea lives on. Ideas have endurance without death.” ― John F. Kennedy
+&lt;span&gt;
+    &lt;a href=&#34;#a-man-may-die-nations-may-rise-and-fall-but-an-idea-lives-on-ideas-have-endurance-without-death--john-f-kennedy&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;Little does he know his . and an idea strikes&lt;/p&gt;
+&lt;p&gt;And this, this is the first known indication of any hint or indication of how things would change.&lt;/p&gt;
+&lt;p&gt;parts of the manuscript were lost and this is all we have been able to recover till now&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My OSDHack &#39;22 Experience</title>
+      <link>https://exitflynn.github.io/blog/posts/osdhack/</link>
+      <pubDate>Thu, 14 Jul 2022 10:10:10 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/osdhack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello There!</title>
+      <link>https://exitflynn.github.io/blog/posts/post/</link>
+      <pubDate>Thu, 14 Jul 2022 10:00:16 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/post/</guid>
+      <description>&lt;p&gt;Welcome to my blog!&lt;/p&gt;
+&lt;p&gt;Hope you like it here!&lt;/p&gt;
+&lt;h1&gt; lesssgooo &lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
