@@ -56,5 +56,7 @@ The movement kept on growing:
 
 ![image](https://user-images.githubusercontent.com/37214399/184524525-10b1b2c3-f255-44b2-b4d3-b6e78c86f032.png)
 
+# This is not a story of that unimaginably and impossibly cool boi, nor is it about Poop or about JOOS, ths story is about the repository that attracted worldwide attention. Behold 'distrOS' as it appeared during mid-2022:
+[distrOS](https://github.com/exitflynn/distrOS)
 
 parts of the manuscript were lost and this is all we have been able to recover till now...
