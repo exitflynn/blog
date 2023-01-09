@@ -1,6 +1,6 @@
 +++
 title = "Mentoring a Project in Kharagpur Winter of Code"
-date = "2022-07-14T10:10:10"
+date = "2023-09-01T10:10:10"
 +++
 
 > The Kharagpur Winter of Code is an annual five week long program where students new or unknown to free and open-source software contribute to coding projects registered in the program by experienced mentors or project owners and gain experience in contributing to open source software.
@@ -17,6 +17,6 @@ an attosecond for me to register that information and another to realise that `w
 *Author's note to self: please start drafting the MVP first, bc details ke chakkar me saari energy shuru ke paras me hi nikal jaati hai*
 
 # KWoC
-The experience on the whole was very much fun. Set-up a Discord server for communication. People joined. Discussed about all the features we could implement in the bot (most of which are still to-be implemented), shitposted (*on occasion*) and just got to know each other better. This was, by far, the best part of the program for me. I got the chance to interact with people I wouldn't have much reason to do so with and I'm extremely glad I did! There were all Everyone's exam timelines were a major pain-in-the-uh-`bash`. 
+The experience on the whole was very much fun. Set-up a Discord server for communication. People joined. Discussed about all the features we could implement in the bot (most of which are still to-be implemented), shitposted (*on occasion*) and just got to know each other better. This was, by far, the best part of the program for me. I got the chance to interact with people I wouldn't have much reason to do so with and I'm extremely glad I did! 
 
-# I AM SORRY BUT THIS IS ALL IM ABLE TO WRITE RN I WILL UPDATE VERY QUICK
+Most contributors weren't as familiar with python and contributing to open-source. Non-Code contributions really helped here with getting a good idea of the whole `setting up git -> forking & cloning -> staging, commiting and pushing -> PR` process while also being super-accessible to everyone. The contributors pointed out issues and suggestions they came across as they set-up the project and got familiar with the codebase.  Everyone's exam timelines were a major pain-in-the-uh-`bash` but I'm extremely proud that everyone was able to make a code contribution as well, however minor.
