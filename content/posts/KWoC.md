@@ -11,7 +11,6 @@ All credit to the [JOOS](https://ossdevs.com) (JODC and OSDC) folks for introduc
 _Can't blame me for not reminding the exam timeline but the day I'm talking about here was (or atleast what should've been haha :wink:) a day of great stress for someone who's used to putting-off work till the last moment. idk like 3 days before first exam maybe._
 As I sat there in the college library, laptop on, I get a text from [OsBins]() if I could quickly put up an Instagram story from OSDC's [InstaGram account](https://www.youtube.com/watch?v=dQw4w9WgXcQ) (not linking to it, too much promotion for a blog post).
 It took an attosecond,
-[The Flash and his Attosecond](/content/assets/the-flash-and-his-attosecond.jpeg)
 an attosecond for me to register that information and another to realise that `winter is here`. I checked and it was the last day for applying as mentor and I quickly pulled up some of the personal projects I had been working on as of late. DeGrasse was the obvious choice, cleaned the ol' fella up a bit. The entire world will be watching him now. Don't want to look too unprofesh, went ahead and registered the Discord bot.
 
 *Author's note to self: please start drafting the MVP first, bc details ke chakkar me saari energy shuru ke paras me hi nikal jaati hai*
