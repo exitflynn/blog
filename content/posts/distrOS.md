@@ -3,10 +3,12 @@ title = "distrOS"
 date = "2022-07-14T10:35:00"
 +++
 
+DEBUG MESSSAGE BOII
+
 # My first "real" Open-Source experience (⌐■_■)
 
 In order to _truly_ understand how things came to be, how history played out, one would require to travel back to the day it began.
-
+DEBUG MESSSAGE BOIIDEBUG MESSSAGE BOIIDEBUG MESSSAGE BOIIDEBUG MESSSAGE BOIIDEBUG MESSSAGE BOIIDEBUG MESSSAGE BOIIDEBUG MESSSAGE BOIIDEBUG MESSSAGE BOIIDEBUG MESSSAGE BOII
 ### Tuesday, July 12, 2022
 #### 6:09 pm
 It's a Tuesday evening. A very _nice_ one at that too. Atleast for the time being.
