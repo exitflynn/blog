@@ -1,6 +1,6 @@
 +++
 title = "distrOS"
-date = "2022-07-14T10:35:00"
+date = "2023-09-01T10:35:00"
 +++
 
 DEBUG MESSSAGE BOII

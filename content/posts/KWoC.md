@@ -1,6 +1,6 @@
 +++
-title = "Mentoring a Project in Kharagpur Winter of Code"
-date = "2023-09-01T10:10:10"
+title = "Mentoring a Project in Kharagpur Winter of Code ❄️"
+date = "2023-01-09T10:10:10"
 +++
 
 > The Kharagpur Winter of Code is an annual five week long program where students new or unknown to free and open-source software contribute to coding projects registered in the program by experienced mentors or project owners and gain experience in contributing to open source software.

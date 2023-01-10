@@ -6,10 +6,42 @@
     <description>Akshit&#39;s Blog (⌐■_■)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jul 2022 10:59:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jan 2023 10:10:10 +0000</lastBuildDate>
     
     <atom:link href="https://exitflynn.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mentoring a Project in Kharagpur Winter of Code ❄️</title>
+      <link>https://exitflynn.github.io/blog/posts/kwoc/</link>
+      <pubDate>Mon, 09 Jan 2023 10:10:10 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/kwoc/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The Kharagpur Winter of Code is an annual five week long program where students new or unknown to free and open-source software contribute to coding projects registered in the program by experienced mentors or project owners and gain experience in contributing to open source software.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;All credit to the &lt;a href=&#34;https://ossdevs.com&#34;&gt;JOOS&lt;/a&gt; (JODC and OSDC) folks for introducing me to the program. I liked what the program was about and had my fingers crossed throughout the year, looking forward to participate when the time came. Someone &lt;em&gt;did&lt;/em&gt; post about the program a week prior to its start and sure I was reminded, yes, but since this is endsem exams season, one shall be excused.&lt;/p&gt;
+&lt;h2 id=&#34;and-then-one-day&#34; &gt;And then, one day&amp;hellip;
+&lt;span&gt;
+    &lt;a href=&#34;#and-then-one-day&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;Can&amp;rsquo;t blame me for not reminding the exam timeline but the day I&amp;rsquo;m talking about here was (or atleast what should&amp;rsquo;ve been haha :wink:) a day of great stress for someone who&amp;rsquo;s used to putting-off work till the last moment. idk like 3 days before first exam maybe.&lt;/em&gt;
+As I sat there in the college library, laptop on, I get a text from &lt;a href=&#34;&#34;&gt;OsBins&lt;/a&gt; if I could quickly put up an Instagram story from OSDC&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=dQw4w9WgXcQ&#34;&gt;InstaGram account&lt;/a&gt; (not linking to it, too much promotion for a blog post).
+It took an attosecond,
+an attosecond for me to register that information and another to realise that &lt;code&gt;winter is here&lt;/code&gt;. I checked and it was the last day for applying as mentor and I quickly pulled up some of the personal projects I had been working on as of late. DeGrasse was the obvious choice, cleaned the ol&amp;rsquo; fella up a bit. The entire world will be watching him now. Don&amp;rsquo;t want to look too unprofesh, went ahead and registered the Discord bot.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Author&amp;rsquo;s note to self: please start drafting the MVP first, bc details ke chakkar me saari energy shuru ke paras me hi nikal jaati hai&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&#34;kwoc&#34; &gt;KWoC
+&lt;span&gt;
+    &lt;a href=&#34;#kwoc&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;The experience on the whole was very much fun. Set-up a Discord server for communication. People joined. Discussed about all the features we could implement in the bot (most of which are still to-be implemented), shitposted (&lt;em&gt;on occasion&lt;/em&gt;) and just got to know each other better. This was, by far, the best part of the program for me. I got the chance to interact with people I wouldn&amp;rsquo;t have much reason to do so with and I&amp;rsquo;m extremely glad I did!&lt;/p&gt;
+&lt;p&gt;Most contributors weren&amp;rsquo;t as familiar with python and contributing to open-source. Non-Code contributions really helped here with getting a good idea of the whole &lt;code&gt;setting up git -&amp;gt; forking &amp;amp; cloning -&amp;gt; staging, commiting and pushing -&amp;gt; PR&lt;/code&gt; process while also being super-accessible to everyone. The contributors pointed out issues and suggestions they came across as they set-up the project and got familiar with the codebase.  Everyone&amp;rsquo;s exam timelines were a major pain-in-the-uh-&lt;code&gt;bash&lt;/code&gt; but I&amp;rsquo;m extremely proud that everyone was able to make a code contribution as well, however minor.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My Experience With Graphic Designing</title>
@@ -17,7 +49,9 @@
       <pubDate>Thu, 14 Jul 2022 10:59:44 +0000</pubDate>
       
       <guid>https://exitflynn.github.io/blog/posts/gd/</guid>
-      <description></description>
+      <description>&lt;p&gt;changes
+Graphic Designers are a bunch of phonies.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -27,87 +61,6 @@
       
       <guid>https://exitflynn.github.io/blog/posts/defcon/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>distrOS</title>
-      <link>https://exitflynn.github.io/blog/posts/distros/</link>
-      <pubDate>Thu, 14 Jul 2022 10:35:00 +0000</pubDate>
-      
-      <guid>https://exitflynn.github.io/blog/posts/distros/</guid>
-      <description>&lt;h1 id=&#34;my-first-real-open-source-experience-_&#34; &gt;My first &amp;ldquo;real&amp;rdquo; Open-Source experience (⌐■_■)
-&lt;span&gt;
-    &lt;a href=&#34;#my-first-real-open-source-experience-_&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h1&gt;&lt;p&gt;In order to &lt;em&gt;truly&lt;/em&gt; understand how things came to be, how history played out, one would require to travel back to the day it began.&lt;/p&gt;
-&lt;h3 id=&#34;tuesday-july-12-2022&#34; &gt;Tuesday, July 12, 2022
-&lt;span&gt;
-    &lt;a href=&#34;#tuesday-july-12-2022&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;609-pm&#34; &gt;6:09 pm
-&lt;span&gt;
-    &lt;a href=&#34;#609-pm&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h4&gt;&lt;p&gt;It&amp;rsquo;s a Tuesday evening. A very &lt;em&gt;nice&lt;/em&gt; one at that too. Atleast for the time being.&lt;/p&gt;
-&lt;h4 id=&#34;30-mins-later-639-pm&#34; &gt;30 mins later, 6:39 pm
-&lt;span&gt;
-    &lt;a href=&#34;#30-mins-later-639-pm&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h4&gt;&lt;p&gt;You see, because it&amp;rsquo;s not just a Tuesday evening. Nay, it&amp;rsquo;s &lt;em&gt;the&lt;/em&gt; Tuesday evening.
-Imagine a very cool boi. Now, if only you could imagine him any cooler you&amp;rsquo;ll have some idea of what I&amp;rsquo;m talking about.
-He was sitting in his room, his laptop and a bag of Doritos by his side, slashin away as he did a routine survey of my Realm, the Realm of the Browsing. His head filled with all sorts of ideas as usual. Ideas, yes. Ideas come and go. Staying, for less than a moment, yet ever so impactful. Ideas, yes. That&amp;rsquo;s how it all began. With an idea.&lt;/p&gt;
-&lt;h1 id=&#34;there-was-an-idea&#34; &gt;There was an idea&amp;hellip;
-&lt;span&gt;
-    &lt;a href=&#34;#there-was-an-idea&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h1&gt;&lt;h2 id=&#34;a-man-may-die-nations-may-rise-and-fall-but-an-idea-lives-on-ideas-have-endurance-without-death--john-f-kennedy&#34; &gt;“A man may die, nations may rise and fall, but an idea lives on. Ideas have endurance without death.” ― John F. Kennedy
-&lt;span&gt;
-    &lt;a href=&#34;#a-man-may-die-nations-may-rise-and-fall-but-an-idea-lives-on-ideas-have-endurance-without-death--john-f-kennedy&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;Little does he know his . and an idea strikes&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/37214399/184523890-eb41deb2-f795-479d-bc51-8b3bd2324912.png&#34; alt=&#34;firstidea&#34;&gt;&lt;/p&gt;
-&lt;p&gt;And this, this is the first known indication of any hint or indication of how things would change.&lt;/p&gt;
-&lt;p&gt;And this was not all, not even close.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/37214399/184523917-e1446186-b259-4a35-a134-ce174587f0d8.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/37214399/184523930-f7d7b700-a1a4-4c0d-b2d7-d26d597b50f6.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/37214399/184523945-54ba1e12-97e4-47de-ae76-8d10f518c769.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;There was no stopping him from transcending to higher levels of bad humor.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/37214399/184523972-41d83d78-d305-4483-9d8f-8cc4823ef557.jpeg&#34; alt=&#34;MSTres&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This won&amp;rsquo;t come across as a surprise but there were no signs of &lt;em&gt;any&lt;/em&gt; opposition to the idea. Far from it infact, it wasn&amp;rsquo;t long before other &lt;em&gt;gentlemensch&lt;/em&gt; decided to join in.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/37214399/184524121-b2468d8f-8e17-4155-b76a-664efb5ae618.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;And then came another idea. However you see, this time, it did not come from our &lt;em&gt;impossibly&lt;/em&gt; cool protagonist. In fact, it was none other than someone who Akshit had one of his encounters with before. Times were different then. It was a cold dark alley and Akshit in his trenchcoat and a sheet of paper in his backpocket had managed to track down his target. Perhaps it would be more accurate to call things for what they truly were, at that moment there was no Akshit, there was only Detective Shit. And the detective&amp;rsquo;s target, the one who&amp;rsquo;ll be there to combine an &lt;em&gt;idea&lt;/em&gt; of his own on top of an &lt;em&gt;idea&lt;/em&gt; already so groundbreaking, it would lead the detective down a path with consequences of magnitude the universe had never witnessed before. It was: Senor Poop.&lt;/p&gt;
-&lt;h1 id=&#34;there-was-another&#34; &gt;There was another&amp;hellip;
-&lt;span&gt;
-    &lt;a href=&#34;#there-was-another&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/37214399/184524466-51487676-d3e0-47fb-b094-091c00c4fe4d.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Scholars kept adding in. The idea had started to get the right kind of attention.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/37214399/184524504-41db7a6d-0dce-4e8b-9469-8030a75cad40.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The movement kept on growing:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/37214399/184524525-10b1b2c3-f255-44b2-b4d3-b6e78c86f032.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;this-is-not-a-story-of-that-unimaginably-and-impossibly-cool-boi-nor-is-it-about-poop-or-about-joos-ths-story-is-about-the-repository-that-attracted-worldwide-attention-behold-distros-as-it-appeared-during-mid-2022&#34; &gt;This is not a story of that unimaginably and impossibly cool boi, nor is it about Poop or about JOOS, ths story is about the repository that attracted worldwide attention. Behold &amp;lsquo;distrOS&amp;rsquo; as it appeared during mid-2022:
-&lt;span&gt;
-    &lt;a href=&#34;#this-is-not-a-story-of-that-unimaginably-and-impossibly-cool-boi-nor-is-it-about-poop-or-about-joos-ths-story-is-about-the-repository-that-attracted-worldwide-attention-behold-distros-as-it-appeared-during-mid-2022&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h1&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/exitflynn/distrOS&#34;&gt;distrOS&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;parts of the manuscript were lost and this is all we have been able to recover till now&amp;hellip;&lt;/p&gt;
-</description>
     </item>
     
     <item>
