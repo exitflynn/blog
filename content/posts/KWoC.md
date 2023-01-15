@@ -1,5 +1,5 @@
 +++
-title = "Mentoring a Project in Kharagpur Winter of Code ❄️"
+title = "Mentoring a Project in Kharagpur Winter of Code"
 date = "2023-01-09T10:10:10"
 +++
 
