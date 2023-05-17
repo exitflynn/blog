@@ -1,7 +1,8 @@
 +++
 title = "Why I like Random Access Memories so much."
-date = "2023-05-17T23:58:10"
+date = "2023-05-17T11:58:10"
 +++
+
 Why I like Random Access Memories so much.
 
 ## 
@@ -10,7 +11,9 @@ Why I like Random Access Memories so much.
 
 you may have seen the length of this post.
 
-it’s incomplete. like as in i’ve just copy-pasted the rough draft’s incomplete pointers at the end, incomplete.
+it’s incomplete. 
+
+like as in i’ve just copy-pasted the rough-incomplete-pointers-at-the-end incomplete.
 
 you may ask why that is, it’s because it’s RAM’s 10th anniversary today which’ll end in exactly 5 mins in my timezone, i want to get this out before that happens.
 
@@ -22,6 +25,7 @@ but also not. realistically speaking i doubt you’d like it as much as i do. To
 
 But different people have different things that strike out to them. And who knows, maybe you’re going through the tracks and there’s something you recognise there and connect to.
 
+What's RAM like?
 it’s electronic… well kinda because you see
 
 it’s also orchestra… well kinda since it’s not your traditional orchestra. You see,
@@ -32,7 +36,7 @@ it’s more soulful… but that still doesn’t cut it.
 
 it’s all of these things, and more, at once. and it’a perfected to perfection.
 
-it’s about having fun, having *fun* (*wink*), falling in love, getting your heart-broken, losing yourself to dance, the essence and the evolution of dance music and the life-story of one of its pioneers, whatever the fuck motherboard is about, contact
+it’s about having fun, having *fun* ( ͡° ͜ʖ ͡°) , falling in love, getting your heart-broken, dancing, the essence and the evolution of dance music and the life-story of one of its pioneers, whatever the fuck motherboard is about, contact
 
 it’s about music, falling in love, falling out of love, having fun, having fun (with a wink), what it is to be human (from the perspective of a robot) and, well, memories.
 

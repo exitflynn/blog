@@ -3,18 +3,166 @@
   <channel>
     <title>Akshit&#39;s Blog (⌐■_■)</title>
     <link>https://exitflynn.github.io/blog/</link>
-    <description>Recent content on Akshit&#39;s Blog (⌐■_■)</description>
+    <description>Akshit&#39;s Blog (⌐■_■)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Jan 2023 10:10:10 +0000</lastBuildDate><atom:link href="https://exitflynn.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 11:58:10 +0000</lastBuildDate>
+    
+    <atom:link href="https://exitflynn.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title>Mentoring a Project in Kharagpur Winter of Code ❄️</title>
+      <title>Why I like Random Access Memories so much.</title>
+      <link>https://exitflynn.github.io/blog/posts/ram/</link>
+      <pubDate>Wed, 17 May 2023 11:58:10 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/ram/</guid>
+      <description>&lt;p&gt;Why I like Random Access Memories so much.&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34; &gt;
+&lt;span&gt;
+    &lt;a href=&#34;#heading&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;h1 id=&#34;before-i-start&#34; &gt;before i start
+&lt;span&gt;
+    &lt;a href=&#34;#before-i-start&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;you may have seen the length of this post.&lt;/p&gt;
+&lt;p&gt;it’s incomplete.&lt;/p&gt;
+&lt;p&gt;like as in i’ve just copy-pasted the rough-incomplete-pointers-at-the-end incomplete.&lt;/p&gt;
+&lt;p&gt;you may ask why that is, it’s because it’s RAM’s 10th anniversary today which’ll end in exactly 5 mins in my timezone, i want to get this out before that happens.&lt;/p&gt;
+&lt;h1 id=&#34;whats-random-access-memories&#34; &gt;what’s random access memories?
+&lt;span&gt;
+    &lt;a href=&#34;#whats-random-access-memories&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;it’s a p cool album from Daft Punk, it’s very nice. I recommend you listen to it.&lt;/p&gt;
+&lt;p&gt;but also not. realistically speaking i doubt you’d like it as much as i do. To most listeners, most of the tracks would be off-putting at the first listen. I have a particular affinity to electronic music, that’s the something that had me coming back to the album. No matter how weird most of it sound, I’d still come back for the pop-oriented Get Lucky or Instant Crush. The way my music taste developed over the years definitely played a part in it too.&lt;/p&gt;
+&lt;p&gt;But different people have different things that strike out to them. And who knows, maybe you’re going through the tracks and there’s something you recognise there and connect to.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s RAM like?
+it’s electronic… well kinda because you see&lt;/p&gt;
+&lt;p&gt;it’s also orchestra… well kinda since it’s not your traditional orchestra. You see,&lt;/p&gt;
+&lt;p&gt;it’s dance music… but not your avg dance music,&lt;/p&gt;
+&lt;p&gt;it’s more soulful… but that still doesn’t cut it.&lt;/p&gt;
+&lt;p&gt;it’s all of these things, and more, at once. and it’a perfected to perfection.&lt;/p&gt;
+&lt;p&gt;it’s about having fun, having &lt;em&gt;fun&lt;/em&gt; ( ͡° ͜ʖ ͡°) , falling in love, getting your heart-broken, dancing, the essence and the evolution of dance music and the life-story of one of its pioneers, whatever the fuck motherboard is about, contact&lt;/p&gt;
+&lt;p&gt;it’s about music, falling in love, falling out of love, having fun, having fun (with a wink), what it is to be human (from the perspective of a robot) and, well, memories.&lt;/p&gt;
+&lt;p&gt;if classical music kept adapting with all the sounds and techniques that technology unlocked, RAM would be the Moonlight Sonata of our age.&lt;/p&gt;
+&lt;h2 id=&#34;1-give-life-back-to-music&#34; &gt;1. Give Life Back to Music
+&lt;span&gt;
+    &lt;a href=&#34;#1-give-life-back-to-music&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;One of those tracks which had vocals going for it, but i disliked initially despite that. On my first listen-through i felt that it’s got a wholesome cheery vibe without much depth which I still believe is true, especially since I was coming from the more&lt;/p&gt;
+&lt;h2 id=&#34;2-giorgio-by-moroder&#34; &gt;2. Giorgio By Moroder
+&lt;span&gt;
+    &lt;a href=&#34;#2-giorgio-by-moroder&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;Touch gets a lot of attention as &lt;em&gt;the&lt;/em&gt; song but there’s a good reason that a lot of fans may give that title to Giorgio.&lt;/p&gt;
+&lt;p&gt;Speaking objectively, it’s easily one of the most unique tracks I’ve ever listened to. Definitely recommend you head over and give it a listen real quick. Perfect example of the song that sounded so &lt;em&gt;weird&lt;/em&gt; on the first listen, I gave up straight away. Couple of months later and it’s easily one of the most heartfelt and innovative and inspiring tracks that I actually love listening to.&lt;/p&gt;
+&lt;p&gt;From finding something as too weird to listen to only to have it be one of my favorites later on, listening to Daft Punk has been an adventure alright.&lt;/p&gt;
+&lt;h1 id=&#34;pointers&#34; &gt;pointers:
+&lt;span&gt;
+    &lt;a href=&#34;#pointers&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;touch deserves a blog post on it’s own&lt;/p&gt;
+&lt;p&gt;insight into how they write it: they talk in imagery&lt;/p&gt;
+&lt;p&gt;i fucking love GLBTM (Studio Outtakes)&lt;/p&gt;
+&lt;p&gt;adhd-ish attention to detail&lt;/p&gt;
+&lt;p&gt;perfect mixing&lt;/p&gt;
+&lt;p&gt;within is so clean&lt;/p&gt;
+&lt;p&gt;instant crush and how i’ve had periods of fav tracks&lt;/p&gt;
+&lt;p&gt;edm, soul&lt;/p&gt;
+&lt;p&gt;giorgio, some say it’s the true spirit of the track, exists in the same album as touch, eras&lt;/p&gt;
+&lt;p&gt;touch&lt;/p&gt;
+&lt;p&gt;theory of evolution (classical music)&lt;/p&gt;
+&lt;p&gt;combine all of music. electronic but you have choir vocals, orchestra, piano, lead human vocals&lt;/p&gt;
+&lt;p&gt;it’s the song you try not to bring up because it’s too good. it’s the song you don’t want to mention on your social-fucking-media&lt;/p&gt;
+&lt;p&gt;contact. i dont understand it. does represent the future&lt;/p&gt;
+&lt;p&gt;you listen to the song you’ve been avoiding and it’ll be on your repeat for the next 3-weeks&lt;/p&gt;
+&lt;p&gt;you settle on a favourite until you listen to something else&lt;/p&gt;
+&lt;p&gt;proper analysis i won’t do, tbh i’d say things like there are “subtle drops” but i fear the more i do the more it’ll end up sucking, the exp would be ruined&lt;/p&gt;
+&lt;p&gt;todd edwards AMA last night&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mentoring a Project in Kharagpur Winter of Code</title>
       <link>https://exitflynn.github.io/blog/posts/kwoc/</link>
       <pubDate>Mon, 09 Jan 2023 10:10:10 +0000</pubDate>
       
       <guid>https://exitflynn.github.io/blog/posts/kwoc/</guid>
-      <description>The Kharagpur Winter of Code is an annual five week long program where students new or unknown to free and open-source software contribute to coding projects registered in the program by experienced mentors or project owners and gain experience in contributing to open source software.
- All credit to the JOOS (JODC and OSDC) folks for introducing me to the program. I liked what the program was about and had my fingers crossed throughout the year, looking forward to participate when the time came.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The Kharagpur Winter of Code is an annual five week long program where students new or unknown to free and open-source software contribute to coding projects registered in the program by experienced mentors or project owners and gain experience in contributing to open source software.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;All credit to the &lt;a href=&#34;https://ossdevs.com&#34;&gt;JOOS&lt;/a&gt; (JODC and OSDC) folks for introducing me to the program. I liked what the program was about and had my fingers crossed throughout the year, looking forward to participate when the time came. Someone &lt;em&gt;did&lt;/em&gt; post about the program a week prior to its start and sure I was reminded, yes, but since this is endsem exams season, one shall be excused.&lt;/p&gt;
+&lt;h2 id=&#34;and-then-one-day&#34; &gt;And then, one day&amp;hellip;
+&lt;span&gt;
+    &lt;a href=&#34;#and-then-one-day&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;Can&amp;rsquo;t blame me for not reminding the exam timeline but the day I&amp;rsquo;m talking about here was (or atleast what should&amp;rsquo;ve been haha :wink:) a day of great stress for someone who&amp;rsquo;s used to putting-off work till the last moment. idk like 3 days before first exam maybe.&lt;/em&gt;
+As I sat there in the college library, laptop on, I get a text from &lt;a href=&#34;&#34;&gt;OsBins&lt;/a&gt; if I could quickly put up an Instagram story from OSDC&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=dQw4w9WgXcQ&#34;&gt;InstaGram account&lt;/a&gt; (not linking to it, too much promotion for a blog post).
+It took an attosecond,
+an attosecond for me to register that information and another to realise that &lt;code&gt;winter is here&lt;/code&gt;. I checked and it was the last day for applying as mentor and I quickly pulled up some of the personal projects I had been working on as of late. DeGrasse was the obvious choice, cleaned the ol&amp;rsquo; fella up a bit. The entire world will be watching him now. Don&amp;rsquo;t want to look too unprofesh, went ahead and registered the Discord bot.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Author&amp;rsquo;s note to self: please start drafting the MVP first, bc details ke chakkar me saari energy shuru ke paras me hi nikal jaati hai&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&#34;kwoc&#34; &gt;KWoC
+&lt;span&gt;
+    &lt;a href=&#34;#kwoc&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;The experience on the whole was very much fun. Set-up a Discord server for communication. People joined. Discussed about all the features we could implement in the bot (most of which are still to-be implemented), shitposted (&lt;em&gt;on occasion&lt;/em&gt;) and just got to know each other better. This was, by far, the best part of the program for me. I got the chance to interact with people I wouldn&amp;rsquo;t have much reason to do so with and I&amp;rsquo;m extremely glad I did!&lt;/p&gt;
+&lt;p&gt;Most contributors weren&amp;rsquo;t as familiar with python and contributing to open-source. Non-Code contributions really helped here with getting a good idea of the whole &lt;code&gt;setting up git -&amp;gt; forking &amp;amp; cloning -&amp;gt; staging, commiting and pushing -&amp;gt; PR&lt;/code&gt; process while also being super-accessible to everyone. The contributors pointed out issues and suggestions they came across as they set-up the project and got familiar with the codebase.  Everyone&amp;rsquo;s exam timelines were a major pain-in-the-uh-&lt;code&gt;bash&lt;/code&gt; but I&amp;rsquo;m extremely proud that everyone was able to make a code contribution as well, however minor.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Random Dump</title>
+      <link>https://exitflynn.github.io/blog/posts/march-end/</link>
+      <pubDate>Mon, 09 Jan 2023 10:10:10 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/march-end/</guid>
+      <description>&lt;h1 id=&#34;what-im-doing-these-days&#34; &gt;What I&amp;rsquo;m doing these days.
+&lt;span&gt;
+    &lt;a href=&#34;#what-im-doing-these-days&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;h2 id=&#34;or-more-accurately-how-watchmen-is-giving-me-an-artificial-crisis&#34; &gt;(or more accurately how Watchmen is giving me an artificial crisis)
+&lt;span&gt;
+    &lt;a href=&#34;#or-more-accurately-how-watchmen-is-giving-me-an-artificial-crisis&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;Been &lt;em&gt;obsessed&lt;/em&gt; with Watchmen. The original Graphic Novel and the show. I feel weird about the show. Almost like it changes my perception and the safe model I had of Watchmen universe until I saw it. Kind of like how everyone felt when they heard about Dr. Manhattan. It&amp;rsquo;s hard to have to decide how I want to think about the phenomenally earth-shatteringly great universe set up by the original Graphic Novel. Whether I want to consider the show canon or not, for despite it&amp;rsquo;s better-than-expected writing and execution, it does fall flat in some areas and even the tiniest bit of imperfection stands out when previously you were having trouble wrapping your head around the perfection of it all.&lt;/p&gt;
+&lt;p&gt;I suppose I&amp;rsquo;ll see the show as a different universe all together, where the message of the original comic changes(?) taking the show in consideration.
+In fact, I should be grateful to be presented this opportunity to deal with something I&amp;rsquo;ve been avoiding since long.
+Why should it matter? Why should including the show in my mental model have any impact on the show? Shouldn&amp;rsquo;t I myself be able to determine whether Dr. Manhattan could have done more? Just how much of an unlikeabe character Rorshach really was?
+Well, a) because of the expository nature of some character&amp;rsquo;s nature ofcourse, exposition, almost by definition, is something you can&amp;rsquo;t &amp;ldquo;reason out&amp;rdquo;. I can&amp;rsquo;t say it&amp;rsquo;s out of character for Laurie to become so &amp;ldquo;headstrong&amp;rdquo; and assertive, since like it or not, that&amp;rsquo;s what ends up happening. If it doesn&amp;rsquo;t fit the character model you had in your mind, treat this as new information. Who&amp;rsquo;s to say you knew everything there was to know about these characters? Sure, as far as Laurie&amp;rsquo;s character development is concerned there were definitely signs and possibilities given her mother&amp;rsquo;s personality as she grew up but there&amp;rsquo;s no way to confirm it and believe that everything that happens now I should attribute to the same character in my head. I wouldn&amp;rsquo;t look at Laurie in the comic and think that this is the same character that&amp;rsquo;d go on to become a reckless and cocksure cop. Same way I can&amp;rsquo;t be sure that Manhattan would come back to Earth so soon to fall in love and gladly accept a death like that (though now that I think of it, given Manhattan&amp;rsquo;s consciousness across time, all of these events &lt;em&gt;are&lt;/em&gt; kinda-sorta compatible with the comic).
+Which brings me to a point I&amp;rsquo;ve been meaning to just come to for a long period of time, just think of the show as Lindelof&amp;rsquo;s version of Watchmen, as a weird, fucked-up altered universe in the multiverse and think of Alan Moore&amp;rsquo;s version as just that, as the masterpiece it is.
+Some questions that Lindelof&amp;rsquo;s alternate version raises &lt;em&gt;do&lt;/em&gt; carry over to Moore&amp;rsquo;s and should apply.&lt;/p&gt;
+&lt;p&gt;Also the show&amp;rsquo;s existence breaking my reality overshadowed my utter obsession with the themes and ideas of the original novel. Rorshach, Comedian, Manhattan and Ozymandias. Such thought-provoking writing.&lt;/p&gt;
+&lt;p&gt;So yeah, obsessed with Watchmen. Trent Reznor and Atticus Ross&amp;rsquo; soundtrack to Watchmen, and by extension, Soul as well.&lt;/p&gt;
+&lt;p&gt;I suppose I shall take a break from Watchmen. I have overdone the thing and soon I&amp;rsquo;ll keep going gaga over a superficial understanding of something that is unrealistic at the end of the day. The ideas explored are pretty good and thought-provoking sure but I&amp;rsquo;m only defiling their effect by placing them on a altar higher than I should.&lt;/p&gt;
+&lt;p&gt;They just announced a Scott Pilgrim show.
+So there&amp;rsquo;s that.&lt;/p&gt;
+&lt;p&gt;Also yeah, GSoC time chal rha hai. Have to write my proposal. Can&amp;rsquo;t seem to haha :skull:. Also T2 ke liye bhi padhna chahiye.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m also obsessed about this girl as of late. And the situation&amp;rsquo;s super awkward, like cringey how weird and awkward it is.
+I can&amp;rsquo;t decide how to think about this. Though it&amp;rsquo;s mostly the more straightforward path to remove myself from a situation as messed up and weird as this, I can&amp;rsquo;t because maybe, this girl might like me! And I don&amp;rsquo;t know how much I can bank on that. I suppose I could let it go but I also feel like I can&amp;rsquo;t afford to miss out on her.&lt;/p&gt;
+&lt;p&gt;ALSO I&amp;rsquo;M KINDA TRIPPING BALLS ABOUT PHILOSOPHY AND SHIT TOO.&lt;/p&gt;
+&lt;p&gt;Jean-Paul Sartre, Camus, Kant, Nietzsche, Dostoevsky.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,7 +171,9 @@
       <pubDate>Thu, 14 Jul 2022 10:59:44 +0000</pubDate>
       
       <guid>https://exitflynn.github.io/blog/posts/gd/</guid>
-      <description>changes Graphic Designers are a bunch of phonies.</description>
+      <description>&lt;p&gt;changes
+Graphic Designers are a bunch of phonies.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -50,9 +200,268 @@
       <pubDate>Thu, 14 Jul 2022 10:00:16 +0000</pubDate>
       
       <guid>https://exitflynn.github.io/blog/posts/post/</guid>
-      <description>Welcome to my blog!
-Hope you like it here!
- lesssgooo  </description>
+      <description>&lt;p&gt;Welcome to my blog!&lt;/p&gt;
+&lt;p&gt;Hope you like it here!&lt;/p&gt;
+&lt;h1&gt; lesssgooo &lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://exitflynn.github.io/blog/posts/justsomething/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/justsomething/</guid>
+      <description>&lt;p&gt;it is about time i wrote. i finally fucking wrote.
+i am sleepy as fuck right now.&lt;/p&gt;
+&lt;p&gt;i am so tired rn
+and sleepy&lt;/p&gt;
+&lt;p&gt;friends se bhi milke aana hai, poora din ho gya nahi mila.&lt;/p&gt;
+&lt;p&gt;sona bhi hai
+sunpy bhi karna hai&lt;/p&gt;
+&lt;p&gt;room bhi saaf karna hai&lt;/p&gt;
+&lt;p&gt;hafte ke liye daily routine bhi draft out karna hai desk clean karke&lt;/p&gt;
+&lt;p&gt;really, really sona bhi hai
+aaj sidhant&amp;rsquo;s birthday celebration tha. i drank for the first time today.
+i went in, and&lt;/p&gt;
+&lt;p&gt;i wanted to write for a long time. that&amp;rsquo;s putting it mildly. when i say i wanted to write for a long time you can imagine me bit sayubg sgut oridycubg an norecdented amount of phlegm whatever comes to my mind rn because i wawnted to do this so huh first lets try to fix our thought i dont ewa nt o think  in rn and brn go and other milennial crap&lt;/p&gt;
+&lt;p&gt;my problem with millenial crap
+aj i ernt to friends and they having fun doing the most worstsht by fucking karaoking to carly re jrpson and shree raam janki bullshree raam janki is another topic alshich i dont want to touch on now&lt;/p&gt;
+&lt;p&gt;atm&lt;/p&gt;
+&lt;p&gt;so how do i tell them tht i dont lkke jow their idea of fun is derived form western medida
+that the only rason they&amp;rsquo;re doing it is because they saw other people do it&lt;/p&gt;
+&lt;p&gt;why i want it that eay?
+because you like brooklun 99?
+they see brooklyn 99 and they want to be that funny guy&lt;/p&gt;
+&lt;p&gt;today, dude says he likes screaming the fk out to iwant it that ay anf it mens&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JIIT Centre sdasdOf Excellence</title>
+      <link>https://exitflynn.github.io/blog/posts/jiitcoe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/jiitcoe/</guid>
+      <description>&lt;h1 id=&#34;coe-on-artificial-intelligence-for-education-coe-aie&#34; &gt;CoE on Artificial Intelligence for Education (CoE-AIE)
+&lt;span&gt;
+    &lt;a href=&#34;#coe-on-artificial-intelligence-for-education-coe-aie&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;The aim of CoE-AIE is to advance cutting-edge research and development in the fields of AI to develop impactful solutions for empowering education and improving educational equity and quality.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Approved date: 1st Apr 2022&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;List of Projects:&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;SN&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Title&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Faculty Members&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AI tool for automatic generation of student&#39;s exercises in learning programming concepts&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;PI&lt;/strong&gt;: Dr. Suma Dawn &lt;br&gt;&lt;strong&gt;Co-PI&lt;/strong&gt;: Dr. Indu Chawla&lt;br&gt;Dr. Ankita Jaiswal&lt;br&gt;Dr. Himanshu Sekhar Pattanaik&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AI based automated tool for assessments that will offer detailed and immediate feedback to students related to their learning progress and can help in identifying the areas in which the students need to improve their efforts&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;PI:&lt;/strong&gt; Dr. Anuja Arora&lt;br&gt;&lt;strong&gt;Co-PI&lt;/strong&gt; Dr. Neetu Sardana&lt;br&gt;Dr Deepika Varshney&lt;br&gt;Dr. Dipty Tripathi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AI tool to convert speech to Indian Sign Language (ISL) to aid hearing impaired learners&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;PI:&lt;/strong&gt; Dr. Anita Sahoo&lt;br&gt;&lt;strong&gt;Co-PI&lt;/strong&gt;: Dr. Ashish Mishra&lt;br&gt;Dr. Shweta Rani&lt;br&gt;Dr. Anil K Mahto&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AI tool to identify the learning style and pattern to facilitate learning for an individual&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;PI&lt;/strong&gt;: Prof. Vikas Saxena&lt;br&gt;&lt;strong&gt;Co-PI&lt;/strong&gt;: Dr. Amit Mishra&lt;br&gt;Dr. Ashish Parihar&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;A teacher-bot to act as an interface to provide personalized education through AI&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;PI&lt;/strong&gt;: Dr. Pulkit Mehdiratta (J128)&lt;br&gt;&lt;strong&gt;Co-PI&lt;/strong&gt;: Dr. Raju Pal (J128)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;&lt;strong&gt;Co-ordinator:&lt;/strong&gt;       Dr. Anita Sahoo
+&lt;br&gt;&lt;strong&gt;Department:&lt;/strong&gt;         CSE&amp;amp;IT
+&lt;br&gt;&lt;strong&gt;University:&lt;/strong&gt;         JIIT, NOIDA, India
+&lt;br&gt;&lt;strong&gt;Phone No. (Office):&lt;/strong&gt; +91-120-2400973 (Ext 256)
+&lt;br&gt;&lt;strong&gt;Email:&lt;/strong&gt;              &lt;a href=&#34;mailto:anita.sahoo@jiit.ac.in&#34;&gt;anita.sahoo@jiit.ac.in&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;student-interns-in-2022&#34; &gt;Student Interns in 2022
+&lt;span&gt;
+    &lt;a href=&#34;#student-interns-in-2022&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;Following students successfully completed the summer training from 12th June 2022 to 31st July 2022 (7 weeks) working in a project under Center of Excellence on AI for Education.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Name of Student&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Enrol. No.&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Project Code?&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Deepak Kumar Gupta&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19103046&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Naman Kumar&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20103092&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ishita Yadav&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20103168&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Harikesh Pratap Singh&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20803002&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Kaustubh Pandey&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20803015&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Najmuzzama Khan&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;18103046&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Vishvesh Kachroo&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19103018&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Vishant Chaudhary&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19103091&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AMAN GARG&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19103134&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Aayush Mittal&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19103141&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Chirag Goyal&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19103179&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Shivansh Gupta&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19103254&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Abhinav Modi&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19104035&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Mukti Singh&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19104044&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VIVEK KUMAR&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19104056&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Maneka Singh&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20103074&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ROHIT SINGH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20103076&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Rishita Pachauri&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20103084&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;KESHAN&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;21303009&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Arsh Thakur&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19103132&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Khushboo Kumari&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19803003&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;HARSHIT SINGH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20103003&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Arpit Jain&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20103041&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Himanshu Nigam&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;21303005&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Rishav Kumar Sahu&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19103023&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Rohit Shekhar Singh&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19104006&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Mohit Lamba&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19104034&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;KRITIKA  BHATNAGAR&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;21303012&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Pritpal Singh&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;21104023&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ayush Bansal&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20103133&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
     </item>
     
   </channel>
