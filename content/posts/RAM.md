@@ -1,6 +1,7 @@
 +++
 title = "Why I like Random Access Memories so much."
 date = "2023-05-17T11:58:10"
+tags = ["WIP", "long-form"]
 +++
 
 Why I like Random Access Memories so much.

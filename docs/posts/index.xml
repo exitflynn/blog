@@ -96,39 +96,7 @@ it’s electronic… well kinda because you see&lt;/p&gt;
     </item>
     
     <item>
-      <title>Mentoring a Project in Kharagpur Winter of Code</title>
-      <link>https://exitflynn.github.io/blog/posts/kwoc/</link>
-      <pubDate>Mon, 09 Jan 2023 10:10:10 +0000</pubDate>
-      
-      <guid>https://exitflynn.github.io/blog/posts/kwoc/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;The Kharagpur Winter of Code is an annual five week long program where students new or unknown to free and open-source software contribute to coding projects registered in the program by experienced mentors or project owners and gain experience in contributing to open source software.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;All credit to the &lt;a href=&#34;https://ossdevs.com&#34;&gt;JOOS&lt;/a&gt; (JODC and OSDC) folks for introducing me to the program. I liked what the program was about and had my fingers crossed throughout the year, looking forward to participate when the time came. Someone &lt;em&gt;did&lt;/em&gt; post about the program a week prior to its start and sure I was reminded, yes, but since this is endsem exams season, one shall be excused.&lt;/p&gt;
-&lt;h2 id=&#34;and-then-one-day&#34; &gt;And then, one day&amp;hellip;
-&lt;span&gt;
-    &lt;a href=&#34;#and-then-one-day&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;&lt;em&gt;Can&amp;rsquo;t blame me for not reminding the exam timeline but the day I&amp;rsquo;m talking about here was (or atleast what should&amp;rsquo;ve been haha :wink:) a day of great stress for someone who&amp;rsquo;s used to putting-off work till the last moment. idk like 3 days before first exam maybe.&lt;/em&gt;
-As I sat there in the college library, laptop on, I get a text from &lt;a href=&#34;&#34;&gt;OsBins&lt;/a&gt; if I could quickly put up an Instagram story from OSDC&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=dQw4w9WgXcQ&#34;&gt;InstaGram account&lt;/a&gt; (not linking to it, too much promotion for a blog post).
-It took an attosecond,
-an attosecond for me to register that information and another to realise that &lt;code&gt;winter is here&lt;/code&gt;. I checked and it was the last day for applying as mentor and I quickly pulled up some of the personal projects I had been working on as of late. DeGrasse was the obvious choice, cleaned the ol&amp;rsquo; fella up a bit. The entire world will be watching him now. Don&amp;rsquo;t want to look too unprofesh, went ahead and registered the Discord bot.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Author&amp;rsquo;s note to self: please start drafting the MVP first, bc details ke chakkar me saari energy shuru ke paras me hi nikal jaati hai&lt;/em&gt;&lt;/p&gt;
-&lt;h1 id=&#34;kwoc&#34; &gt;KWoC
-&lt;span&gt;
-    &lt;a href=&#34;#kwoc&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
-    &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h1&gt;&lt;p&gt;The experience on the whole was very much fun. Set-up a Discord server for communication. People joined. Discussed about all the features we could implement in the bot (most of which are still to-be implemented), shitposted (&lt;em&gt;on occasion&lt;/em&gt;) and just got to know each other better. This was, by far, the best part of the program for me. I got the chance to interact with people I wouldn&amp;rsquo;t have much reason to do so with and I&amp;rsquo;m extremely glad I did!&lt;/p&gt;
-&lt;p&gt;Most contributors weren&amp;rsquo;t as familiar with python and contributing to open-source. Non-Code contributions really helped here with getting a good idea of the whole &lt;code&gt;setting up git -&amp;gt; forking &amp;amp; cloning -&amp;gt; staging, commiting and pushing -&amp;gt; PR&lt;/code&gt; process while also being super-accessible to everyone. The contributors pointed out issues and suggestions they came across as they set-up the project and got familiar with the codebase.  Everyone&amp;rsquo;s exam timelines were a major pain-in-the-uh-&lt;code&gt;bash&lt;/code&gt; but I&amp;rsquo;m extremely proud that everyone was able to make a code contribution as well, however minor.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Random Dump</title>
+      <title>march-end</title>
       <link>https://exitflynn.github.io/blog/posts/march-end/</link>
       <pubDate>Mon, 09 Jan 2023 10:10:10 +0000</pubDate>
       
@@ -162,6 +130,38 @@ So there&amp;rsquo;s that.&lt;/p&gt;
 I can&amp;rsquo;t decide how to think about this. Though it&amp;rsquo;s mostly the more straightforward path to remove myself from a situation as messed up and weird as this, I can&amp;rsquo;t because maybe, this girl might like me! And I don&amp;rsquo;t know how much I can bank on that. I suppose I could let it go but I also feel like I can&amp;rsquo;t afford to miss out on her.&lt;/p&gt;
 &lt;p&gt;ALSO I&amp;rsquo;M KINDA TRIPPING BALLS ABOUT PHILOSOPHY AND SHIT TOO.&lt;/p&gt;
 &lt;p&gt;Jean-Paul Sartre, Camus, Kant, Nietzsche, Dostoevsky.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mentoring a Project in Kharagpur Winter of Code</title>
+      <link>https://exitflynn.github.io/blog/posts/kwoc/</link>
+      <pubDate>Mon, 09 Jan 2023 10:10:10 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/kwoc/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The Kharagpur Winter of Code is an annual five week long program where students new or unknown to free and open-source software contribute to coding projects registered in the program by experienced mentors or project owners and gain experience in contributing to open source software.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;All credit to the &lt;a href=&#34;https://ossdevs.com&#34;&gt;JOOS&lt;/a&gt; (JODC and OSDC) folks for introducing me to the program. I liked what the program was about and had my fingers crossed throughout the year, looking forward to participate when the time came. Someone &lt;em&gt;did&lt;/em&gt; post about the program a week prior to its start and sure I was reminded, yes, but since this is endsem exams season, one shall be excused.&lt;/p&gt;
+&lt;h2 id=&#34;and-then-one-day&#34; &gt;And then, one day&amp;hellip;
+&lt;span&gt;
+    &lt;a href=&#34;#and-then-one-day&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;Can&amp;rsquo;t blame me for not reminding the exam timeline but the day I&amp;rsquo;m talking about here was (or atleast what should&amp;rsquo;ve been haha :wink:) a day of great stress for someone who&amp;rsquo;s used to putting-off work till the last moment. idk like 3 days before first exam maybe.&lt;/em&gt;
+As I sat there in the college library, laptop on, I get a text from &lt;a href=&#34;&#34;&gt;OsBins&lt;/a&gt; if I could quickly put up an Instagram story from OSDC&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=dQw4w9WgXcQ&#34;&gt;InstaGram account&lt;/a&gt; (not linking to it, too much promotion for a blog post).
+It took an attosecond,
+an attosecond for me to register that information and another to realise that &lt;code&gt;winter is here&lt;/code&gt;. I checked and it was the last day for applying as mentor and I quickly pulled up some of the personal projects I had been working on as of late. DeGrasse was the obvious choice, cleaned the ol&amp;rsquo; fella up a bit. The entire world will be watching him now. Don&amp;rsquo;t want to look too unprofesh, went ahead and registered the Discord bot.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Author&amp;rsquo;s note to self: please start drafting the MVP first, bc details ke chakkar me saari energy shuru ke paras me hi nikal jaati hai&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&#34;kwoc&#34; &gt;KWoC
+&lt;span&gt;
+    &lt;a href=&#34;#kwoc&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;The experience on the whole was very much fun. Set-up a Discord server for communication. People joined. Discussed about all the features we could implement in the bot (most of which are still to-be implemented), shitposted (&lt;em&gt;on occasion&lt;/em&gt;) and just got to know each other better. This was, by far, the best part of the program for me. I got the chance to interact with people I wouldn&amp;rsquo;t have much reason to do so with and I&amp;rsquo;m extremely glad I did!&lt;/p&gt;
+&lt;p&gt;Most contributors weren&amp;rsquo;t as familiar with python and contributing to open-source. Non-Code contributions really helped here with getting a good idea of the whole &lt;code&gt;setting up git -&amp;gt; forking &amp;amp; cloning -&amp;gt; staging, commiting and pushing -&amp;gt; PR&lt;/code&gt; process while also being super-accessible to everyone. The contributors pointed out issues and suggestions they came across as they set-up the project and got familiar with the codebase.  Everyone&amp;rsquo;s exam timelines were a major pain-in-the-uh-&lt;code&gt;bash&lt;/code&gt; but I&amp;rsquo;m extremely proud that everyone was able to make a code contribution as well, however minor.&lt;/p&gt;
 </description>
     </item>
     
