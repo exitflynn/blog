@@ -1,9 +1,10 @@
 +++
 title = "distrOS"
 date = "2023-09-01T10:35:00"
+tags = ["WIP"]
 +++
 
-DEBUG MESSSAGE BOII
+DEBUG MESSSAGE 
 
 # My first "real" Open-Source experience (⌐■_■)
 
