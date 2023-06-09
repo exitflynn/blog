@@ -27,9 +27,6 @@ So there's that.
 
 Also yeah, GSoC time chal rha hai. Have to write my proposal. Can't seem to haha :skull:. Also T2 ke liye bhi padhna chahiye.
 
-I'm also obsessed about this girl as of late. And the situation's super awkward, like cringey how weird and awkward it is.
-I can't decide how to think about this. Though it's mostly the more straightforward path to remove myself from a situation as messed up and weird as this, I can't because maybe, this girl might like me! And I don't know how much I can bank on that. I suppose I could let it go but I also feel like I can't afford to miss out on her.
-
 ALSO I'M KINDA TRIPPING BALLS ABOUT PHILOSOPHY AND SHIT TOO.
 
 Jean-Paul Sartre, Camus, Kant, Nietzsche, Dostoevsky.
