@@ -9,11 +9,13 @@ All credit to the [JOOS](https://ossdevs.com) (JODC and OSDC) folks for introduc
 
 ## And then, one day...
 _Can't blame me for not reminding the exam timeline but the day I'm talking about here was (or atleast what should've been haha :wink:) a day of great stress for someone who's used to putting-off work till the last moment. idk like 3 days before first exam maybe._
-As I sat there in the college library, laptop on, I get a text from [OsBins]() if I could quickly put up an Instagram story from OSDC's [InstaGram account](https://www.youtube.com/watch?v=dQw4w9WgXcQ) (not linking to it, too much promotion for a blog post).
+As I sat there in the college library, laptop on, I get a text from [OsBins](https://github.com/osBins) if I could quickly put up an Instagram story from OSDC's [InstaGram account](https://www.instagram.com/osdcjiit),
 It took an attosecond,
-an attosecond for me to register that information and another to realise that `winter is here`. I checked and it was the last day for applying as mentor and I quickly pulled up some of the personal projects I had been working on as of late. DeGrasse was the obvious choice, cleaned the ol' fella up a bit. The entire world will be watching him now. Don't want to look too unprofesh, went ahead and registered the Discord bot.
+an attosecond for me to register that information and another to realise that `winter is here`. 
+I checked and it was the last day for applying as mentor and I quickly pulled up some of the personal projects I had been working on as of late. DeGrasse was the obvious choice, cleaned the ol' fella up a bit. The entire world will be watching him now. Don't want to look too unprofesh, went ahead and registered the Discord bot.
 
 *Author's note to self: please start drafting the MVP first, bc details ke chakkar me saari energy shuru ke paras me hi nikal jaati hai*
+*Future Author's note to self: phew don't worry, it's a good thing to cringe on previous self okay this is good it means you've um grown now okay*
 
 # KWoC
 The experience on the whole was very much fun. Set-up a Discord server for communication. People joined. Discussed about all the features we could implement in the bot (most of which are still to-be implemented), shitposted (*on occasion*) and just got to know each other better. This was, by far, the best part of the program for me. I got the chance to interact with people I wouldn't have much reason to do so with and I'm extremely glad I did! 

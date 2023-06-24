@@ -6,10 +6,88 @@
     <description>Akshit&#39;s Blog (⌐■_■) (WIP)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 May 2023 11:58:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jun 2023 01:33:30 +0000</lastBuildDate>
     
     <atom:link href="https://exitflynn.github.io/blog/tags/wip/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Into the Summer of Code</title>
+      <link>https://exitflynn.github.io/blog/posts/gsoc-began/</link>
+      <pubDate>Sat, 24 Jun 2023 01:33:30 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/gsoc-began/</guid>
+      <description>&lt;p&gt;I had my end-semester exams during the Community Bonding Period and the real-early part of the Coding Period. However, my mentors were super-accomodating.
+I spent a few days on plans with friends before bidding goodbye for the summers, travelling home and relaxing a bit.&lt;/p&gt;
+&lt;h2 id=&#34;the-talk&#34; &gt;The Talk
+&lt;span&gt;
+    &lt;a href=&#34;#the-talk&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;This was also the time when IIT BHU reached out to me for a talk as part of a collab between their Astronomy and Open-Source clubs about Astronomy in tech and OSS. This was a  g r e a t  experience! I&amp;rsquo;ve always wanted to improve at public-speaking stuff and to finally pull off a satisfactory talk was a great experience. Also Prayash was a great host.&lt;/p&gt;
+&lt;h2 id=&#34;beginning-with-the-project&#34; &gt;Beginning with the Project
+&lt;span&gt;
+    &lt;a href=&#34;#beginning-with-the-project&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;My mentor, Nabil, had asked me to start by writing tests for the scraper, even if they may not return a -ve)for all the URLs it doesn&amp;rsquo;t support now.
+Looking closely though, all the issues were due to limitations of the way regex is implemented for inputting URLs, i.e. since one of the main goals of the project was to remove regex and use parse instead, these tests would have proven to be quite redundant. I asked my mentors and understandably so, Nabil said that he doesn&amp;rsquo;t want me working on code that I might have to remove soon enough and said I can proceed to the rest of the rewrite.&lt;/p&gt;
+&lt;p&gt;After that, I began reading up on what Metaclasses, Abstract Base Classes (ABCs), etc are, their advantages and how they can be implemented in python to decide which would be better for the purpose of the project. However, at this point I wasn&amp;rsquo;t really maintaining good communication with my mentors. When they asked me for any updates and then inquired about why I had been reading up on ABCs and such, they clarified that I should be able to improve the scraper without going that route.&lt;/p&gt;
+&lt;p&gt;Had to take a couple of days off in between for unavoidable reasons.&lt;/p&gt;
+&lt;p&gt;After that I took some calls with my mentors, clarifying details and trying to work things through together as I figured out what I should do next.
+All the scraper // dataretriever clients require two strings, &lt;code&gt;baseurl&lt;/code&gt; and &lt;code&gt;pattern&lt;/code&gt; and I figure out a way to merge them somehow.
+I looked into just what role the two of them had and found that &lt;code&gt;pattern&lt;/code&gt; was used only to parse data.
+For example, When writing scraper clients, we require a baseurl and a pattern, an example from the NOAA Client:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;baseurl &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;r&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;ftp://ftp.ngdc.noaa.gov/STP/swpc_products/daily_reports/solar_region_summaries/%Y/%m/%Y%m&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;%d&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;SRS.txt&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pattern &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{year:4d}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{month:2d}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{year:4d}{month:2d}{day:2d}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;SRS.txt&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Instead of passing both, we should be able to merge them into just one since the pattern string is conveying information that is already available in the baseurl.&lt;/p&gt;
+&lt;p&gt;I figured it should be possible to transform &lt;code&gt;baseurl&lt;/code&gt; to &lt;code&gt;pattern&lt;/code&gt; and generate &lt;code&gt;pattern&lt;/code&gt; that way but halfway through I realised that it&amp;rsquo;d not be possible. However we should be able to convert a full &lt;code&gt;pattern&lt;/code&gt; to it&amp;rsquo;s &lt;code&gt;baseurl&lt;/code&gt; formatted counterpart.&lt;/p&gt;
+&lt;p&gt;I remember writing out loud what I thought as I approached that problem:&lt;/p&gt;
+&lt;h2 id=&#34;rubber-ducky-microblogging&#34; &gt;rubber ducky microblogging?
+&lt;span&gt;
+    &lt;a href=&#34;#rubber-ducky-microblogging&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;now how do we include this transformation in our code?
+we have mainly two places / files of concern.
+&lt;code&gt;dataretriever/client.py&lt;/code&gt; and &lt;code&gt;scraper.py&lt;/code&gt;
+at this point there are a couple of ways to go about it that come to my mind, all of them would however can be categorised as:
+a) include the transformation in dr/client.py
+b) include it in scraper.py&lt;/p&gt;
+&lt;p&gt;before i get ahead of myself, it&amp;rsquo;s better to arrive at a concrete decision here, if that&amp;rsquo;s possible, to avoid having too much of overhead.&lt;/p&gt;
+&lt;p&gt;case a:
+pattern transforms in client and is then sent to scraper. this means the scraper still operates on strftime baseurl.
+and when we want to call the parse function, instead of sending pattern as we do now, we can just send the original new format&lt;/p&gt;
+&lt;p&gt;case b:
+pass the new format to scraper. scraper converts it into strftime to use in all of its functions, and&lt;/p&gt;
+&lt;p&gt;the second approach makes more sense, yeah.&lt;/p&gt;
+&lt;p&gt;NOW
+what&amp;rsquo;d be a nice way to incorporate this transform in the scraper file?&lt;/p&gt;
+&lt;p&gt;So there have to be Two strings/patterns, throughout this codebase.
+the strftime kind and the parse kind.
+what we input is the parse kind (since we can convert this to strftime, and the other way around wasn&amp;rsquo;t possible)&lt;/p&gt;
+&lt;p&gt;how to incorporate both strings? make them both private members of the Scraper class?&lt;/p&gt;
+&lt;p&gt;some functions will be changed as a result of this&lt;/p&gt;
+&lt;p&gt;like _URL_followsPattern&lt;/p&gt;
+&lt;p&gt;okay so the plan of action is:
+go add a transform function, call it in init
+we&amp;rsquo;ll have a variable for the time_pattern, update pattern -&amp;gt; time_pattern wherever applicable.
+rewrite using parse wherever applicable&lt;/p&gt;
+&lt;p&gt;but this would take away from having a standard system and we&amp;rsquo;ll be defining our own set of names to name variables as.&lt;/p&gt;
+&lt;p&gt;also a future plan can be to check for redundant functions / moving code.&lt;/p&gt;
+&lt;h2 id=&#34;in-conclusion&#34; &gt;in conclusion
+&lt;span&gt;
+    &lt;a href=&#34;#in-conclusion&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;So as of right now, I&amp;rsquo;ve been working on &lt;a href=&#34;https://github.com/sunpy/sunpy/issues/7073&#34;&gt;#7073&lt;/a&gt; and &lt;a href=&#34;https://github.com/sunpy/sunpy/pull/7077&#34;&gt;PR #7077&lt;/a&gt;, more details on this issue and my proposed solution can be found in the issue description.&lt;/p&gt;
+&lt;p&gt;This&amp;rsquo;ll be all for now, will be posting more in the future.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Getting Selected As A GSoC student at SunPy</title>
