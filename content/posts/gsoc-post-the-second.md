@@ -1,7 +1,7 @@
 +++
 title = "Into the Summer of Code"
 date = "2023-06-24T01:33:30"
-tags = ["gsoc", "WIP"]
+tags = ["gsoc"]
 +++
 
 I had my end-semester exams during the Community Bonding Period and the real-early part of the Coding Period. However, my mentors were super-accomodating.

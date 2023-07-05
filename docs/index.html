@@ -252,7 +252,53 @@
             <article class="post-list h-feed">
     <div class="post-header">
         <header>
-            <h1 class="p-name post-title"><a class="u-url" href="/blog/posts/gsoc-began/">Into the Summer of Code</a></h1>
+            <h1 class="p-name post-title"><a class="u-url" href="/blog/posts/gsoc-post-the-third/">Scraper Things</a></h1>
+        </header>
+        
+    </div>
+
+    
+        <div class="content post-summary p-summary">
+            Most of the week was spent rewriting the Scraper functions to go with the new parse-pattern and then looking for edge cases in the new implementations, fixing bugs and updating tests.
+{{Catching up}} In the scraper, while trying to merge baseurl (an strftime formatted pattern i.e. %Y%m etc) and pattern (parse formatted pattern i.e. {year:4d}{month:2d} etc), I faced two choices, we could either:
+Make the input all parse-style formatted. generate the datetime-compatible string from here wherever it is required, however the problem i was running into here is parse-stuff like {year:2d} will collide with {instrument} like placeholders on which we mean to call .
+        </div>
+    
+    
+    
+    
+
+    
+
+
+<div class="post-info">
+    
+        <div class="post-date dt-published">2023-06-30</div>
+    
+
+    <a class="post-hidden-url u-url" href="https://exitflynn.github.io/blog/posts/gsoc-post-the-third/">https://exitflynn.github.io/blog/posts/gsoc-post-the-third/</a>
+    <a href="https://exitflynn.github.io/blog" class="p-name p-author post-hidden-author h-card" rel="me">Akshit Tyagi</a>
+
+
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        
+                        <li><a href="https://exitflynn.github.io/blog/tags/gsoc/">#gsoc</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+</article>
+        
+            <article class="post-list h-feed">
+    <div class="post-header">
+        <header>
+            <h1 class="p-name post-title"><a class="u-url" href="/blog/posts/gsoc-post-the-second/">Into the Summer of Code</a></h1>
         </header>
         
     </div>
@@ -275,7 +321,7 @@ The Talk This was also the time when IIT BHU reached out to me for a talk as par
         <div class="post-date dt-published">2023-06-24</div>
     
 
-    <a class="post-hidden-url u-url" href="https://exitflynn.github.io/blog/posts/gsoc-began/">https://exitflynn.github.io/blog/posts/gsoc-began/</a>
+    <a class="post-hidden-url u-url" href="https://exitflynn.github.io/blog/posts/gsoc-post-the-second/">https://exitflynn.github.io/blog/posts/gsoc-post-the-second/</a>
     <a href="https://exitflynn.github.io/blog" class="p-name p-author post-hidden-author h-card" rel="me">Akshit Tyagi</a>
 
 
@@ -286,9 +332,6 @@ The Talk This was also the time when IIT BHU reached out to me for a talk as par
                     
                         
                         <li><a href="https://exitflynn.github.io/blog/tags/gsoc/">#gsoc</a></li>
-                    
-                        
-                        <li><a href="https://exitflynn.github.io/blog/tags/wip/">#WIP</a></li>
                     
                 </ul>
         
@@ -647,56 +690,20 @@ All credit to the JOOS (JODC and OSDC) folks for introducing me to the program. 
 
 </article>
         
-            <article class="post-list h-feed">
-    <div class="post-header">
-        <header>
-            <h1 class="p-name post-title"><a class="u-url" href="/blog/posts/post/">Hello There!</a></h1>
-        </header>
         
-    </div>
-
-    
-        <div class="content post-summary p-summary">
-            Welcome to my blog!
-Hope you like it here!
-lesssgooo 
-        </div>
     
     
-    
-    
-
-    
-
-
-<div class="post-info">
-    
-        <div class="post-date dt-published">2022-07-14</div>
-    
-
-    <a class="post-hidden-url u-url" href="https://exitflynn.github.io/blog/posts/post/">https://exitflynn.github.io/blog/posts/post/</a>
-    <a href="https://exitflynn.github.io/blog" class="p-name p-author post-hidden-author h-card" rel="me">Akshit Tyagi</a>
-
-
-    <div class="post-taxonomies">
-        
+    <div class="pagination">
+        <div class="left pagination-item disabled">
             
-                <ul class="post-tags">
-                    
-                        
-                        <li><a href="https://exitflynn.github.io/blog/tags/">#Tags</a></li>
-                    
-                        
-                        <li><a href="https://exitflynn.github.io/blog/tags/">#Tags</a></li>
-                    
-                </ul>
-        
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/blog/page/2/">to old posts</a>
+            
+        </div>
     </div>
-</div>
 
-</article>
-        
-        
 
     </div>
 

@@ -10,9 +10,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Getting Selected As A GSoC student at SunPy - Akshit&#39;s Blog (⌐■_■)</title>
+<title>Scraper Things - Akshit&#39;s Blog (⌐■_■)</title>
 
-<meta name="description" content="What is The Google Summer of Code? It is a program by Google for promoting students to contribute to open-source communities. It is also a G R E A T opportunity for us to work on projects with such big impact. I&rsquo;m so glad I came to know about it. I loved that I could get this opportunity to work with people involved in developing software that is used by many.">
+<meta name="description" content="Most of the week was spent rewriting the Scraper functions to go with the new parse-pattern and then looking for edge cases in the new implementations, fixing bugs and updating tests.
+{{Catching up}} In the scraper, while trying to merge baseurl (an strftime formatted pattern i.e. %Y%m etc) and pattern (parse formatted pattern i.e. {year:4d}{month:2d} etc), I faced two choices, we could either:
+Make the input all parse-style formatted. generate the datetime-compatible string from here wherever it is required, however the problem i was running into here is parse-stuff like {year:2d} will collide with {instrument} like placeholders on which we mean to call .">
 
 
 
@@ -84,16 +86,20 @@
 
 
 
-<meta property="og:title" content="Getting Selected As A GSoC student at SunPy" />
-<meta property="og:description" content="What is The Google Summer of Code? It is a program by Google for promoting students to contribute to open-source communities. It is also a G R E A T opportunity for us to work on projects with such big impact. I&rsquo;m so glad I came to know about it. I loved that I could get this opportunity to work with people involved in developing software that is used by many." />
+<meta property="og:title" content="Scraper Things" />
+<meta property="og:description" content="Most of the week was spent rewriting the Scraper functions to go with the new parse-pattern and then looking for edge cases in the new implementations, fixing bugs and updating tests.
+{{Catching up}} In the scraper, while trying to merge baseurl (an strftime formatted pattern i.e. %Y%m etc) and pattern (parse formatted pattern i.e. {year:4d}{month:2d} etc), I faced two choices, we could either:
+Make the input all parse-style formatted. generate the datetime-compatible string from here wherever it is required, however the problem i was running into here is parse-stuff like {year:2d} will collide with {instrument} like placeholders on which we mean to call ." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://exitflynn.github.io/blog/posts/gsoc-acceptance-speech/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-05-21T11:58:10+00:00" />
-<meta property="article:modified_time" content="2023-05-21T11:58:10+00:00" />
+<meta property="og:url" content="https://exitflynn.github.io/blog/posts/gsoc-post-the-third/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-30T01:33:30+00:00" />
+<meta property="article:modified_time" content="2023-06-30T01:33:30+00:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Getting Selected As A GSoC student at SunPy"/>
-<meta name="twitter:description" content="What is The Google Summer of Code? It is a program by Google for promoting students to contribute to open-source communities. It is also a G R E A T opportunity for us to work on projects with such big impact. I&rsquo;m so glad I came to know about it. I loved that I could get this opportunity to work with people involved in developing software that is used by many."/>
+<meta name="twitter:title" content="Scraper Things"/>
+<meta name="twitter:description" content="Most of the week was spent rewriting the Scraper functions to go with the new parse-pattern and then looking for edge cases in the new implementations, fixing bugs and updating tests.
+{{Catching up}} In the scraper, while trying to merge baseurl (an strftime formatted pattern i.e. %Y%m etc) and pattern (parse formatted pattern i.e. {year:4d}{month:2d} etc), I faced two choices, we could either:
+Make the input all parse-style formatted. generate the datetime-compatible string from here wherever it is required, however the problem i was running into here is parse-stuff like {year:2d} will collide with {instrument} like placeholders on which we mean to call ."/>
 
 
 
@@ -247,77 +253,91 @@
     <article class="post h-entry">
         <div class="post-header">
             <header>
-                <h1 class="p-name post-title">Getting Selected As A GSoC student at SunPy</h1>
+                <h1 class="p-name post-title">Scraper Things</h1>
 
                 
             </header>
         </div>
         <div class="content e-content">
-            <h1 id="what-is-the-google-summer-of-code" >What is The Google Summer of Code?
+            <p>Most of the week was spent rewriting the Scraper functions to go with the new parse-pattern and then looking for edge cases in the new implementations, fixing bugs and updating tests.</p>
+<h1 id="catching-up" >{{Catching up}}
 <span>
-    <a href="#what-is-the-google-summer-of-code">
+    <a href="#catching-up">
         <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
     </a>
 </span>
-</h1><p>It is a program by Google for promoting students to contribute to open-source communities.
-It is also a  G R E A T  opportunity for us to work on projects with such big impact. I&rsquo;m so glad I came to know about it. I loved that I could get this opportunity to work with people involved in developing software that is used by many.
-Now one could argue that that&rsquo;s the opportunity Open-Source provides in general, which is true. It&rsquo;s difficult to admit but I did need that initial push, some motivating factor to <em>truly</em> make the effort and get my hands wet with contributing to an open-source project. However it&rsquo;s as they say, the beginning&rsquo;s the hardest part and that once you start contributing it becomes so much more easy to keep going. I think they&rsquo;ve done a great job at incentivising Open-Source contributions.</p>
-<h1 id="choosing-an-org" >Choosing an Org
+</h1><p>In the scraper, while trying to merge <code>baseurl</code> (an strftime formatted pattern i.e.<code> %Y%m</code> etc) and <code>pattern</code> (parse formatted pattern i.e. <code>{year:4d}{month:2d}</code> etc), I faced two choices, we could either:</p>
+<ul>
+<li>
+<p>Make the input all parse-style formatted. generate the datetime-compatible string from here wherever it is required, however the problem i was running into here is parse-stuff like <code>{year:2d}</code> will collide with <code>{instrument}</code> like placeholders on which we mean to call <code>.format(**kwargs)</code> on. All the ways I could think of pulling it off included adding a large no. of lines of code in the really early part of <code>__init__()</code>.</p>
+</li>
+<li>
+<p>Make the input all datetime formatted and generate the parse pattern from here. The problem with this is there are edge-cases when sometimes users define variables like <code>{Level:1d}</code> which we have no way of knowing beforehand. One way to go about this could&rsquo;ve been that we tell the user to define a pattern string in addition to baseurl whenever they have any new variables like that.</p>
+</li>
+</ul>
+<p>We ended up going with the first. My mentor, <a href="https://github.com/Nabobalis">Nabil</a> introduced me to how there&rsquo;s a prevalence of using double-curly brackets in places where we need to escape / use them with single curly brackets, and sure enough, the <code>parse</code> module supports that. So that took care of the problem there, I was mostly a bit concerned that I&rsquo;ll have to go back to the second way even though I had started with it before pivoting to the first one.</p>
+<h1 id="communication" >Communication
 <span>
-    <a href="#choosing-an-org">
+    <a href="#communication">
         <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
     </a>
 </span>
-</h1><p>A lot of Organisations participate in GSoC. I had worked on a couple of #good-first-issues on a few projects before this period and had achieved that level of confidence where the language / tech-stack wasn&rsquo;t the deciding factor for me anymore but it was now the project idea / the community.
-I <strong>love</strong> Astronomy and feel quite strongly about it. I am super-curious about how I can use my skills / to-be skills in tech in the field of Astronomy, some sort of an intersection of the two would actually be one of the most meaningful and enjoyable work I could find for myself.
-Naturally, I looked into <strong>OpenAstronomy</strong> as a GSoC org.
-I&rsquo;ve seen a lot of people prioritising those organisations which make for nicer addition to a resume from a product-based tech companies pov and it indeed <em>is</em> a very smart way to go about it to be honest but I decided that I didn&rsquo;t want to miss this unique opportunity to work on something I had wanted to do since a long time.
-Under the sub-orgs for OpenAstronomy, I found <strong>SunPy</strong>.</p>
-<h1 id="first-experience-with-sunpy" >First Experience with SunPy
+</h1><p>Nabil pointed out that we weren&rsquo;t being very good at communicating and that has a negative effect on the project which lead me to change how I was approaching it.</p>
+<p>A lot of times I was debugging things by including print statements here and there, and since my project now involves changing API it had me updating tests and a lot of these times the problem would just be in my understanding on how to convert the patterns and just how the new input should look like. Previously, I would only send a message on the matrix room when I had a question. And most of the times I&rsquo;d still hold out hope for solving something by myself when I have the strength to pick it up later. But it also makes sense because there&rsquo;d be no way to differentiate that from me not doing anything. Also around 75% of the time I&rsquo;ve drafted out questions, I found out an answer along the way. From now on I realise instead of just asking questions, I should think of it as a logging / progress-updating activity first which sounds obvious in hindsight.</p>
+<h1 id="to-regex-or-not-to-regex" >To regex or not to regex
 <span>
-    <a href="#first-experience-with-sunpy">
+    <a href="#to-regex-or-not-to-regex">
         <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
     </a>
 </span>
-</h1><p>Now, SunPy is a python library relating to solar physics. Though heliophysics wasn&rsquo;t exactly something that I thought of when thinking of astrophysics or space-stuff, I was <em>really</em> impressed by how active and supportive the community is. Besides, I found myself interested in the networking side of things more than the solar-physics stuff anyways as for now.</p>
-<p>While first going through the issues I came across one which included <a href="https://github.com/sunpy/sunpy/issues/6692">detecting gzipped files from more than just the extension</a> (via file-signatures / magic-bytes). I love when my familairity with using linux-based systems comes into play during development and I felt the issue to be quite approachable. During the PR Review, I remember going through the documentation for python&rsquo;s <code>gzip</code> module to verify that it doesn&rsquo;t need to decompress a whole gzipped file and that we could decompress just enough to get the first couple of bits which include the file-signature (since otherwise it&rsquo;d mean way too much overhead for the solution to be practical) and information on that is <em>not</em> as easily available on the web as I&rsquo;d like.</p>
-<h1 id="subsequent-experience" >Subsequent Experience
+</h1><p>The next part where I was stuck at was in converting a pattern that involved custom placeholders like <code>{{CAR_ROT:4d}}</code> or <code>{{:3d}}</code> to their regex counterparts like  <code>(\d){3}</code>, <code>(\d){16}</code> etc without using like a l o t of regex, any less complex method than using a conversion function etc. However, after a quick conversation with the mentors and I realised that I had been mistakenly assuming that strftime required regex patterns. Earlier I thought that regex would no longer be part of the end-user experience but still somehow exist in the codebase but this is when I realised that we can entirely do away with it.</p>
+<h1 id="rewrite-then-remove-" >Rewrite then Remove? 💀
 <span>
-    <a href="#subsequent-experience">
+    <a href="#rewrite-then-remove-">
         <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
     </a>
 </span>
-</h1><p>I kept on making code-contributions which I felt approachable for some parts of January and February. And then I got a bit busy due to some health-reasons and college and organsing OSDHack &lsquo;23 (I&rsquo;ll totally write a blog-post on that later, it was such a nice success). I was a bit apprehensive because I was also looking forward to participate in the Google Summer of Code as a SunPy contributor and I didn&rsquo;t want to give off the wrong impression so I wrote a (not)brief text to <a href="https://github.com/Nabobalis">Nabil</a> who was super-supportive. When the proposal submission period came around, it wasn&rsquo;t the most ideal process since I ended up having to make the proposal in the last 2 days. Thankfully again, the community is super responsive and I reached out to both Nabil and <a href="https://github.com/wtbarnes">Will</a> for some feedback on my proposal and they both replied immediately.</p>
-<h1 id="contributing-to-open-source-is-goated" >Contributing to Open-Source is GOATed
+</h1><p>I also realised that the <code>_extractDateURL()</code> function was made redundant <em>after</em> rewriting it since I found out later that it was only called at one place and that part of the code was no longer required thanks to the existence of a parse-pattern. That&rsquo;s a nice message to keep in mind for the future.</p>
+<h1 id="modern-day-cain" >Modern Day Cain
 <span>
-    <a href="#contributing-to-open-source-is-goated">
+    <a href="#modern-day-cain">
         <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
     </a>
 </span>
-</h1><p>People in tech / software development should actually be talking about this so much more than they are. Some of the things that come to my mind right now are:</p>
-<h2 id="its-a-great-way-to-learn-stuff" >It&rsquo;s a great way to learn stuff
+</h1><p>Another question I encountered was if we could assume that any {year:2d} or %y type 2-digit year xx to be interpreted to be in the 21st century like 20xx or not.</p>
+<h1 id="issue-found" >Issue found
 <span>
-    <a href="#its-a-great-way-to-learn-stuff">
+    <a href="#issue-found">
         <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
     </a>
 </span>
-</h2><p>One of the main factors why I think people have a hard time contributing is that they think &ldquo;I can&rsquo;t contribute here because I don&rsquo;t know nearly enough tech to do stuff&rdquo;. The thing with being involved in this form of software development is that it gets you used to learning on the fly which is central to software development and doing well in any field, tbh.</p>
-<p>Contributing to big open-source projects helped me gained TREMENDOUS self-confidence. I could look at any issue on any repo now, and never think that it&rsquo;s un-doable. No matter what domain or what language the project is in, it&rsquo;s only a question of how much time it&rsquo;d take to get through the relevant documentation and concepts. This is certainly a long way from &ldquo;I can&rsquo;t do $#!+ in this codebase if my life depended on it, it scares me&rdquo; and I&rsquo;m very much glad I could have this experience.</p>
-<h2 id="the-best-practices-ever" >The best practices ever
+</h1><p>I also found this bug in the codebase:
+In the current <code>scraper._check_timerange()</code>, it takes the simpler way <code>if</code> we provide it with an extractor // parse-pattern and a more complex way if we don&rsquo;t, however as it is implemented right now</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> sunpy.net.scraper <span style="color:#f92672">import</span> Scraper
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sunpy.time <span style="color:#f92672">import</span> TimeRange
+</span></span><span style="display:flex;"><span>s <span style="color:#f92672">=</span> Scraper(<span style="color:#e6db74">&#39;%Y.fits&#39;</span>)
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">.</span>_check_timerange(<span style="color:#e6db74">&#39;2014.fits&#39;</span>, TimeRange(<span style="color:#e6db74">&#34;2015-01-01&#34;</span>, <span style="color:#e6db74">&#34;2015-01-02&#34;</span>))
+</span></span></code></pre></div><p>would return True and it is intended that way in the tests but if we passed it an extractor // parse pattern</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>s<span style="color:#f92672">.</span>extractor <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{year:4d}</span><span style="color:#e6db74">.fits&#34;</span>
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">.</span>_check_timerange(<span style="color:#e6db74">&#39;2014.fits&#39;</span>, TimeRange(<span style="color:#e6db74">&#34;2015-01-01&#34;</span>, <span style="color:#e6db74">&#34;2015-01-02&#34;</span>))
+</span></span></code></pre></div><p>it&rsquo;d return False.</p>
+<h1 id="inclusivity-is-important" >Inclusivity is important
 <span>
-    <a href="#the-best-practices-ever">
+    <a href="#inclusivity-is-important">
         <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
     </a>
 </span>
-</h2><p>You get to learn how to write well-tested, well-documented and maintainable Production-Ready code following the best software development practices.</p>
-<h2 id="you-get-to-choose-what-you-want-to-work-on" >You get to choose what you <em>want</em> to work on
+</h1><p>Failing tests required me to inqure if we want closed-intervals in the package or open, which concluded with closed. I also found other instances in the codebase where we endorse closed intervals.</p>
+<h1 id="future-steps" >Future steps
 <span>
-    <a href="#you-get-to-choose-what-you-want-to-work-on">
+    <a href="#future-steps">
         <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
     </a>
 </span>
-</h2><p>YEP! And most of the communities would love to have you work on it, that&rsquo;s such an exciting thing if you ask me.</p>
-<p>(this post is a bit rough around the edges, I definitely want to add stuff to it but owing to my exams right now I&rsquo;ll get to it at some later point of time, thanks for reading!)</p>
+</h1><p>Cover why the rest of tests are breaking and fix em.
+Ask for review once everything works.
+Try to come up with a way to write parse-patterns so as the length remains less by trying to minimize repeated values.
+Also fix my Hugo setup before the night -_-</p>
 
         </div>
         
@@ -327,10 +347,10 @@ Under the sub-orgs for OpenAstronomy, I found <strong>SunPy</strong>.</p>
 
 <div class="post-info">
     
-        <div class="post-date dt-published">2023-05-21</div>
+        <div class="post-date dt-published">2023-06-30</div>
     
 
-    <a class="post-hidden-url u-url" href="https://exitflynn.github.io/blog/posts/gsoc-acceptance-speech/">https://exitflynn.github.io/blog/posts/gsoc-acceptance-speech/</a>
+    <a class="post-hidden-url u-url" href="https://exitflynn.github.io/blog/posts/gsoc-post-the-third/">https://exitflynn.github.io/blog/posts/gsoc-post-the-third/</a>
     <a href="https://exitflynn.github.io/blog" class="p-name p-author post-hidden-author h-card" rel="me">Akshit Tyagi</a>
 
 
@@ -341,9 +361,6 @@ Under the sub-orgs for OpenAstronomy, I found <strong>SunPy</strong>.</p>
                     
                         
                         <li><a href="https://exitflynn.github.io/blog/tags/gsoc/">#gsoc</a></li>
-                    
-                        
-                        <li><a href="https://exitflynn.github.io/blog/tags/wip/">#WIP</a></li>
                     
                 </ul>
         
@@ -358,13 +375,9 @@ Under the sub-orgs for OpenAstronomy, I found <strong>SunPy</strong>.</p>
             <h3 class="read-next-title">Read next</h3>
             <ul class="read-next-posts">
                 
-                <li><a href="/blog/posts/ram/">Why I like Random Access Memories so much.</a></li>
+                <li><a href="/blog/posts/gsoc-post-the-second/">Into the Summer of Code</a></li>
                 
-                <li><a href="/blog/posts/osdhack23/">My OSDHack &#39;23 Experience</a></li>
-                
-                <li><a href="/blog/posts/gd/">My Experience With Graphic Designing</a></li>
-                
-                <li><a href="/blog/posts/osdhack/">My OSDHack &#39;22 Experience</a></li>
+                <li><a href="/blog/posts/gsoc-acceptance-speech/">Getting Selected As A GSoC student at SunPy</a></li>
                 
             </ul>
         
@@ -373,14 +386,12 @@ Under the sub-orgs for OpenAstronomy, I found <strong>SunPy</strong>.</p>
     
         
     <div class="pagination post-pagination">
-        <div class="left pagination-item ">
-            
-                <a href="/blog/posts/gsoc-post-the-second/">Into the Summer of Code</a>
+        <div class="left pagination-item disabled">
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/blog/posts/ram/">Why I like Random Access Memories so much.</a>
+                <a href="/blog/posts/gsoc-post-the-second/">Into the Summer of Code</a>
             
         </div>
     </div>

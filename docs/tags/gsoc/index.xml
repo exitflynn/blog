@@ -6,17 +6,105 @@
     <description>Akshit&#39;s Blog (⌐■_■) (gsoc)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Jun 2023 01:33:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jun 2023 01:33:30 +0000</lastBuildDate>
     
     <atom:link href="https://exitflynn.github.io/blog/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Scraper Things</title>
+      <link>https://exitflynn.github.io/blog/posts/gsoc-post-the-third/</link>
+      <pubDate>Fri, 30 Jun 2023 01:33:30 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/gsoc-post-the-third/</guid>
+      <description>&lt;p&gt;Most of the week was spent rewriting the Scraper functions to go with the new parse-pattern and then looking for edge cases in the new implementations, fixing bugs and updating tests.&lt;/p&gt;
+&lt;h1 id=&#34;catching-up&#34; &gt;{{Catching up}}
+&lt;span&gt;
+    &lt;a href=&#34;#catching-up&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;In the scraper, while trying to merge &lt;code&gt;baseurl&lt;/code&gt; (an strftime formatted pattern i.e.&lt;code&gt; %Y%m&lt;/code&gt; etc) and &lt;code&gt;pattern&lt;/code&gt; (parse formatted pattern i.e. &lt;code&gt;{year:4d}{month:2d}&lt;/code&gt; etc), I faced two choices, we could either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Make the input all parse-style formatted. generate the datetime-compatible string from here wherever it is required, however the problem i was running into here is parse-stuff like &lt;code&gt;{year:2d}&lt;/code&gt; will collide with &lt;code&gt;{instrument}&lt;/code&gt; like placeholders on which we mean to call &lt;code&gt;.format(**kwargs)&lt;/code&gt; on. All the ways I could think of pulling it off included adding a large no. of lines of code in the really early part of &lt;code&gt;__init__()&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make the input all datetime formatted and generate the parse pattern from here. The problem with this is there are edge-cases when sometimes users define variables like &lt;code&gt;{Level:1d}&lt;/code&gt; which we have no way of knowing beforehand. One way to go about this could&amp;rsquo;ve been that we tell the user to define a pattern string in addition to baseurl whenever they have any new variables like that.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We ended up going with the first. My mentor, &lt;a href=&#34;https://github.com/Nabobalis&#34;&gt;Nabil&lt;/a&gt; introduced me to how there&amp;rsquo;s a prevalence of using double-curly brackets in places where we need to escape / use them with single curly brackets, and sure enough, the &lt;code&gt;parse&lt;/code&gt; module supports that. So that took care of the problem there, I was mostly a bit concerned that I&amp;rsquo;ll have to go back to the second way even though I had started with it before pivoting to the first one.&lt;/p&gt;
+&lt;h1 id=&#34;communication&#34; &gt;Communication
+&lt;span&gt;
+    &lt;a href=&#34;#communication&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;Nabil pointed out that we weren&amp;rsquo;t being very good at communicating and that has a negative effect on the project which lead me to change how I was approaching it.&lt;/p&gt;
+&lt;p&gt;A lot of times I was debugging things by including print statements here and there, and since my project now involves changing API it had me updating tests and a lot of these times the problem would just be in my understanding on how to convert the patterns and just how the new input should look like. Previously, I would only send a message on the matrix room when I had a question. And most of the times I&amp;rsquo;d still hold out hope for solving something by myself when I have the strength to pick it up later. But it also makes sense because there&amp;rsquo;d be no way to differentiate that from me not doing anything. Also around 75% of the time I&amp;rsquo;ve drafted out questions, I found out an answer along the way. From now on I realise instead of just asking questions, I should think of it as a logging / progress-updating activity first which sounds obvious in hindsight.&lt;/p&gt;
+&lt;h1 id=&#34;to-regex-or-not-to-regex&#34; &gt;To regex or not to regex
+&lt;span&gt;
+    &lt;a href=&#34;#to-regex-or-not-to-regex&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;The next part where I was stuck at was in converting a pattern that involved custom placeholders like &lt;code&gt;{{CAR_ROT:4d}}&lt;/code&gt; or &lt;code&gt;{{:3d}}&lt;/code&gt; to their regex counterparts like  &lt;code&gt;(\d){3}&lt;/code&gt;, &lt;code&gt;(\d){16}&lt;/code&gt; etc without using like a l o t of regex, any less complex method than using a conversion function etc. However, after a quick conversation with the mentors and I realised that I had been mistakenly assuming that strftime required regex patterns. Earlier I thought that regex would no longer be part of the end-user experience but still somehow exist in the codebase but this is when I realised that we can entirely do away with it.&lt;/p&gt;
+&lt;h1 id=&#34;rewrite-then-remove-&#34; &gt;Rewrite then Remove? 💀
+&lt;span&gt;
+    &lt;a href=&#34;#rewrite-then-remove-&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;I also realised that the &lt;code&gt;_extractDateURL()&lt;/code&gt; function was made redundant &lt;em&gt;after&lt;/em&gt; rewriting it since I found out later that it was only called at one place and that part of the code was no longer required thanks to the existence of a parse-pattern. That&amp;rsquo;s a nice message to keep in mind for the future.&lt;/p&gt;
+&lt;h1 id=&#34;modern-day-cain&#34; &gt;Modern Day Cain
+&lt;span&gt;
+    &lt;a href=&#34;#modern-day-cain&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;Another question I encountered was if we could assume that any {year:2d} or %y type 2-digit year xx to be interpreted to be in the 21st century like 20xx or not.&lt;/p&gt;
+&lt;h1 id=&#34;issue-found&#34; &gt;Issue found
+&lt;span&gt;
+    &lt;a href=&#34;#issue-found&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;I also found this bug in the codebase:
+In the current &lt;code&gt;scraper._check_timerange()&lt;/code&gt;, it takes the simpler way &lt;code&gt;if&lt;/code&gt; we provide it with an extractor // parse-pattern and a more complex way if we don&amp;rsquo;t, however as it is implemented right now&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; sunpy.net.scraper &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Scraper
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; sunpy.time &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; TimeRange
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Scraper(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;%Y.fits&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;_check_timerange(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;2014.fits&amp;#39;&lt;/span&gt;, TimeRange(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2015-01-01&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2015-01-02&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;would return True and it is intended that way in the tests but if we passed it an extractor // parse pattern&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;extractor &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{year:4d}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;.fits&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;_check_timerange(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;2014.fits&amp;#39;&lt;/span&gt;, TimeRange(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2015-01-01&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2015-01-02&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;it&amp;rsquo;d return False.&lt;/p&gt;
+&lt;h1 id=&#34;inclusivity-is-important&#34; &gt;Inclusivity is important
+&lt;span&gt;
+    &lt;a href=&#34;#inclusivity-is-important&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;Failing tests required me to inqure if we want closed-intervals in the package or open, which concluded with closed. I also found other instances in the codebase where we endorse closed intervals.&lt;/p&gt;
+&lt;h1 id=&#34;future-steps&#34; &gt;Future steps
+&lt;span&gt;
+    &lt;a href=&#34;#future-steps&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;&lt;p&gt;Cover why the rest of tests are breaking and fix em.
+Ask for review once everything works.
+Try to come up with a way to write parse-patterns so as the length remains less by trying to minimize repeated values.
+Also fix my Hugo setup before the night -_-&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Into the Summer of Code</title>
-      <link>https://exitflynn.github.io/blog/posts/gsoc-began/</link>
+      <link>https://exitflynn.github.io/blog/posts/gsoc-post-the-second/</link>
       <pubDate>Sat, 24 Jun 2023 01:33:30 +0000</pubDate>
       
-      <guid>https://exitflynn.github.io/blog/posts/gsoc-began/</guid>
+      <guid>https://exitflynn.github.io/blog/posts/gsoc-post-the-second/</guid>
       <description>&lt;p&gt;I had my end-semester exams during the Community Bonding Period and the real-early part of the Coding Period. However, my mentors were super-accomodating.
 I spent a few days on plans with friends before bidding goodbye for the summers, travelling home and relaxing a bit.&lt;/p&gt;
 &lt;h2 id=&#34;the-talk&#34; &gt;The Talk
