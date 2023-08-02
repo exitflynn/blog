@@ -2,7 +2,7 @@
 title = "Across the Summer of Code"
 date = "2023-07-29T05:33:30"
 tags = ["gsoc"]
-
++++
 
 I spent the most part of my time since last blog-post working on the failing tests.
 The most complex client to fix and the most complex client in general, the GOES Client, needed to be changed a bit. The problem that arose there was mainly because of how we earlier had the liberty of parsing out any variable given down in the pattern since that string would never be used to act as a url but since we also want it to do the job of the baseurl, we can't have any to-be-determined value in the base parts. Since the client involved calling a helper function that returned the data for specific values of those variables, I had to modify the code to obtain those values from that part instead of extracting it again from the URL (since we put it there in the URL string in the first place). 
