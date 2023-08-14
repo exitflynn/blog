@@ -6,10 +6,21 @@
     <description>Akshit&#39;s Blog (⌐■_■) (Posts)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jul 2023 05:33:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Aug 2023 05:33:30 +0000</lastBuildDate>
     
     <atom:link href="https://exitflynn.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docs Strange and Cleaning Up Code</title>
+      <link>https://exitflynn.github.io/blog/posts/gsoc-sixth/</link>
+      <pubDate>Sat, 12 Aug 2023 05:33:30 +0000</pubDate>
+      
+      <guid>https://exitflynn.github.io/blog/posts/gsoc-sixth/</guid>
+      <description>&lt;p&gt;Since the last post, I worked on the moving-the-code task. Me, Nabil and Alasdair got on a call to discuss what should go where and I ended up creating a &lt;code&gt;scraper_utils.py&lt;/code&gt; file to complement the &lt;code&gt;scraper.py&lt;/code&gt; file. The other options were moving the functions to &lt;code&gt;.util.net&lt;/code&gt; or inside the &lt;code&gt;scraper.py&lt;/code&gt; file but outside the &lt;code&gt;Scraper&lt;/code&gt; class. After I moved the tests as well, I wrote new tests, increased test coverage and renamed some functions which were previously named in the JavaScript-style CamelCase.
+I also added and extended doc-strings to some functions which could use some updating and made fixes as asked in Code-Reviews.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Across the Summer of Code</title>
