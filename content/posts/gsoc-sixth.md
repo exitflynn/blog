@@ -1,5 +1,5 @@
 +++
-title = "Docs Strange and Cleaning Up Code"
+title = "Docs and Marty and the Moving Around of Code and Tests"
 date = "2023-08-12T05:33:30"
 tags = ["gsoc"]
 +++
