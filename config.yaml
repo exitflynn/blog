@@ -11,8 +11,8 @@ publishDir: "docs"
 menu:
   main:
   - identifier: archive
-    name: Archive
-    title: Archive
+    name: Fragments of Time
+    title: Fragments of Time
     url: /posts/
     weight: 0
 
